@@ -1,0 +1,100 @@
+body{
+    background-color: lightblue;
+    color:white;
+}
+nav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    width: 90vw;
+    margin: auto;
+}
+
+.nav_bar_image_container{
+    width:15vw;
+    /* border: 1px solid black; */
+   
+}
+
+.nav_bar_image_container img{
+    width: 15vw;
+}
+
+.nav_bar_link_container{
+    width: 60vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    font-size: 1.5vw;
+    color:white;
+}
+
+.nav_bar_link_container a{
+    text-decoration: none;
+    color: white;
+ 
+}
+
+.nav_bar_link_container a:hover{
+    color: white;
+    background-color:rgb(255, 98, 0);
+    /* border: 1px solid rgb(255, 98, 0); */
+    padding: 5px;
+}
+
+/* main_body */
+
+.main_container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin: auto;
+
+}
+
+.left_container{
+    /* border: 1px solid black; */
+    width: 30vw;
+    text-align: left;
+}
+
+.right_container{
+    /* border: 1px solid black; */
+    width: 5vw;
+}
+.center_div{
+    /* border: 1px solid black; */
+}
+
+.input_flex_container{
+    /* border: 1px solid black; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input_flex_container input{
+    width: 44%;
+    height: 4vh;
+}
+
+.input_flex_container select{
+    width: 46.5%;
+    height: 5vh;
+}
+
+.input_plane_container{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+.input_plane_container input{
+    width: 98%;
+    height: 4vh;
+}
